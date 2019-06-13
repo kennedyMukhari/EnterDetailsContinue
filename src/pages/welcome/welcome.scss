@@ -1,0 +1,44 @@
+page-welcome {
+    ioic-title * {
+        
+    }
+    ion-header {
+        position: relative;
+        
+    }
+    ion-navbar{
+        
+    }
+    #container {
+        margin-top: 0.5%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: 100%;
+        background-image:linear-gradient(#424242, #B74B27);
+        background-size:cover;
+    }
+    #container .img{
+        position: relative;
+        background-image:url('../../assets/imgs/back.jpg');
+        width: 33%;
+        height: 31%;
+        margin-right: auto;
+        margin-left:auto;
+        background-size: cover;
+        margin-top: 25%;
+
+    }
+    #container .lab {
+        margin-top: 1%;
+        background-image: linear-gradient(#EEEEEE,#070707);
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #container .lab label {
+        font-size: 150%;
+        color:solid black;
+        
+    }
+}

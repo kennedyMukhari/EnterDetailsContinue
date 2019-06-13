@@ -1,0 +1,38 @@
+<ion-content padding center text-center>
+  
+      <div class="wrapper">
+  <form >
+    <ion-list >
+      <ion-title ><h2>Enter your details</h2></ion-title>
+
+      <ion-item id="rounded">
+        <ion-label></ion-label>
+        <ion-input type="text" name="firstname" placeholder="First Name" [(ngModel)]="firstname"></ion-input>
+      </ion-item>
+  
+      <ion-item id="rounded">
+        <ion-label></ion-label>
+        <ion-input type="text" name="lastname" placeholder="Lastname" [(ngModel)]="lastname"></ion-input>
+      </ion-item>
+
+      <ion-item id="rounded">
+        <ion-label></ion-label>
+        <ion-input type="number" name="cell" placeholder="Phone Number" [(ngModel)]="cell"></ion-input>
+      </ion-item>
+  
+      <ion-item id="rounded">
+          <ion-label></ion-label>
+          <ion-input type="email" name="email" placeholder="Email Address" [(ngModel)]="email"></ion-input>
+        </ion-item>
+
+
+        <div padding>
+            <button ion-button round color="primary" (click)="login();goToWelcome(firstname,lastname)">Continue</button>
+          </div>
+    
+    </ion-list>
+  </form>
+  </div>
+  
+
+</ion-content>
